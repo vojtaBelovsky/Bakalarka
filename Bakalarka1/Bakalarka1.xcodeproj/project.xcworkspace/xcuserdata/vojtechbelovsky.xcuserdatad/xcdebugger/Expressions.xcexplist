@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[MTLJSONAdapter JSONTransformerForKey:]:MTLJSONAdapter.m">
+      </ContextState>
+      <ContextState
+         contextName = "__29-[BCViewController getIssue:]_block_invoke:BCViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[MTLJSONAdapter initWithJSONDictionary:modelClass:error:]:MTLJSONAdapter.m">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

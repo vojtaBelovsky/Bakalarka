@@ -27,8 +27,52 @@
 		101B5DCE16F71B4200B6C2FE /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 101B5DC316F71B4200B6C2FE /* AFURLConnectionOperation.m */; };
 		101B5DCF16F71B4200B6C2FE /* AFXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 101B5DC516F71B4200B6C2FE /* AFXMLRequestOperation.m */; };
 		101B5DD016F71B4200B6C2FE /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 101B5DC716F71B4200B6C2FE /* UIImageView+AFNetworking.m */; };
-		101B5DD616F8890F00B6C2FE /* VBHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 101B5DD516F8890F00B6C2FE /* VBHTTPClient.m */; };
+		101B5DD616F8890F00B6C2FE /* BCHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 101B5DD516F8890F00B6C2FE /* BCHTTPClient.m */; };
+		101B5DD916FBB43C00B6C2FE /* BCIssue.m in Sources */ = {isa = PBXBuildFile; fileRef = 101B5DD816FBB43C00B6C2FE /* BCIssue.m */; };
+		101B62F716FC565100B6C2FE /* libMantle.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 101B62F016FC552400B6C2FE /* libMantle.a */; };
+		10D554E516FC7C280020FE83 /* BCUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D554E416FC7C280020FE83 /* BCUser.m */; };
+		10D554E816FCA3660020FE83 /* BCMilestone.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D554E716FCA3660020FE83 /* BCMilestone.m */; };
+		10D554EB16FCA42D0020FE83 /* BCRepository.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D554EA16FCA42D0020FE83 /* BCRepository.m */; };
+		10D554EE16FF83530020FE83 /* BCLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D554ED16FF83530020FE83 /* BCLabel.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		101B62EB16FC552400B6C2FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 101B62D116FC535F00B6C2FE /* Mantle.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D042FC3C15F72B23004E8054;
+			remoteInfo = "Mantle Mac";
+		};
+		101B62ED16FC552400B6C2FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 101B62D116FC535F00B6C2FE /* Mantle.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D042FC5415F72B23004E8054;
+			remoteInfo = "Mantle Mac Tests";
+		};
+		101B62EF16FC552400B6C2FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 101B62D116FC535F00B6C2FE /* Mantle.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D042FC7915F72BC7004E8054;
+			remoteInfo = "Mantle iOS";
+		};
+		101B62F116FC552400B6C2FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 101B62D116FC535F00B6C2FE /* Mantle.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D042FC8715F72BC7004E8054;
+			remoteInfo = "Mantle iOS Tests";
+		};
+		101B62F516FC563200B6C2FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 101B62D116FC535F00B6C2FE /* Mantle.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D042FC7815F72BC7004E8054;
+			remoteInfo = "Mantle iOS";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		101B5D8E16F71B0C00B6C2FE /* Bakalarka1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bakalarka1.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -66,8 +110,19 @@
 		101B5DC516F71B4200B6C2FE /* AFXMLRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFXMLRequestOperation.m; sourceTree = "<group>"; };
 		101B5DC616F71B4200B6C2FE /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
 		101B5DC716F71B4200B6C2FE /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
-		101B5DD416F8890F00B6C2FE /* VBHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VBHTTPClient.h; sourceTree = "<group>"; };
-		101B5DD516F8890F00B6C2FE /* VBHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VBHTTPClient.m; sourceTree = "<group>"; };
+		101B5DD416F8890F00B6C2FE /* BCHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCHTTPClient.h; sourceTree = "<group>"; };
+		101B5DD516F8890F00B6C2FE /* BCHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCHTTPClient.m; sourceTree = "<group>"; };
+		101B5DD716FBB43C00B6C2FE /* BCIssue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCIssue.h; sourceTree = "<group>"; };
+		101B5DD816FBB43C00B6C2FE /* BCIssue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCIssue.m; sourceTree = "<group>"; };
+		101B62D116FC535F00B6C2FE /* Mantle.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Mantle.xcodeproj; path = ../../../frameworks/Mantle/Mantle.xcodeproj; sourceTree = "<group>"; };
+		10D554E316FC7C280020FE83 /* BCUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCUser.h; sourceTree = "<group>"; };
+		10D554E416FC7C280020FE83 /* BCUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCUser.m; sourceTree = "<group>"; };
+		10D554E616FCA3660020FE83 /* BCMilestone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCMilestone.h; sourceTree = "<group>"; };
+		10D554E716FCA3660020FE83 /* BCMilestone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCMilestone.m; sourceTree = "<group>"; };
+		10D554E916FCA42D0020FE83 /* BCRepository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCRepository.h; sourceTree = "<group>"; };
+		10D554EA16FCA42D0020FE83 /* BCRepository.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCRepository.m; sourceTree = "<group>"; };
+		10D554EC16FF83520020FE83 /* BCLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCLabel.h; sourceTree = "<group>"; };
+		10D554ED16FF83530020FE83 /* BCLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +130,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				101B62F716FC565100B6C2FE /* libMantle.a in Frameworks */,
 				101B5D9216F71B0C00B6C2FE /* UIKit.framework in Frameworks */,
 				101B5D9416F71B0C00B6C2FE /* Foundation.framework in Frameworks */,
 				101B5D9616F71B0C00B6C2FE /* CoreGraphics.framework in Frameworks */,
@@ -87,6 +143,7 @@
 		101B5D8516F71B0C00B6C2FE = {
 			isa = PBXGroup;
 			children = (
+				101B62E216FC550C00B6C2FE /* 3rd */,
 				101B5D9716F71B0C00B6C2FE /* Bakalarka1 */,
 				101B5D9016F71B0C00B6C2FE /* Frameworks */,
 				101B5D8F16F71B0C00B6C2FE /* Products */,
@@ -114,14 +171,12 @@
 		101B5D9716F71B0C00B6C2FE /* Bakalarka1 */ = {
 			isa = PBXGroup;
 			children = (
-				101B5DB416F71B4200B6C2FE /* AFNetworking */,
-				101B5DD416F8890F00B6C2FE /* VBHTTPClient.h */,
-				101B5DD516F8890F00B6C2FE /* VBHTTPClient.m */,
+				10D554DF16FC574C0020FE83 /* UI */,
+				101B62F416FC555600B6C2FE /* Models */,
+				101B62F316FC554000B6C2FE /* API */,
 				101B5DA016F71B0C00B6C2FE /* BCAppDelegate.h */,
 				101B5DA116F71B0C00B6C2FE /* BCAppDelegate.m */,
 				101B5DA916F71B0C00B6C2FE /* MainStoryboard.storyboard */,
-				101B5DAC16F71B0C00B6C2FE /* BCViewController.h */,
-				101B5DAD16F71B0C00B6C2FE /* BCViewController.m */,
 				101B5D9816F71B0C00B6C2FE /* Supporting Files */,
 			);
 			path = Bakalarka1;
@@ -167,6 +222,62 @@
 			path = AFNetworking;
 			sourceTree = "<group>";
 		};
+		101B62E216FC550C00B6C2FE /* 3rd */ = {
+			isa = PBXGroup;
+			children = (
+				101B62D116FC535F00B6C2FE /* Mantle.xcodeproj */,
+				101B5DB416F71B4200B6C2FE /* AFNetworking */,
+			);
+			name = 3rd;
+			path = Bakalarka1;
+			sourceTree = "<group>";
+		};
+		101B62E516FC552400B6C2FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				101B62EC16FC552400B6C2FE /* Mantle.framework */,
+				101B62EE16FC552400B6C2FE /* Mantle Mac Tests.octest */,
+				101B62F016FC552400B6C2FE /* libMantle.a */,
+				101B62F216FC552400B6C2FE /* Mantle iOS Tests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		101B62F316FC554000B6C2FE /* API */ = {
+			isa = PBXGroup;
+			children = (
+				101B5DD416F8890F00B6C2FE /* BCHTTPClient.h */,
+				101B5DD516F8890F00B6C2FE /* BCHTTPClient.m */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		101B62F416FC555600B6C2FE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				101B5DD716FBB43C00B6C2FE /* BCIssue.h */,
+				101B5DD816FBB43C00B6C2FE /* BCIssue.m */,
+				10D554E316FC7C280020FE83 /* BCUser.h */,
+				10D554E416FC7C280020FE83 /* BCUser.m */,
+				10D554E616FCA3660020FE83 /* BCMilestone.h */,
+				10D554E716FCA3660020FE83 /* BCMilestone.m */,
+				10D554E916FCA42D0020FE83 /* BCRepository.h */,
+				10D554EA16FCA42D0020FE83 /* BCRepository.m */,
+				10D554EC16FF83520020FE83 /* BCLabel.h */,
+				10D554ED16FF83530020FE83 /* BCLabel.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		10D554DF16FC574C0020FE83 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				101B5DAC16F71B0C00B6C2FE /* BCViewController.h */,
+				101B5DAD16F71B0C00B6C2FE /* BCViewController.m */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -181,6 +292,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				101B62F616FC563200B6C2FE /* PBXTargetDependency */,
 			);
 			name = Bakalarka1;
 			productName = Bakalarka1;
@@ -207,12 +319,49 @@
 			mainGroup = 101B5D8516F71B0C00B6C2FE;
 			productRefGroup = 101B5D8F16F71B0C00B6C2FE /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 101B62E516FC552400B6C2FE /* Products */;
+					ProjectRef = 101B62D116FC535F00B6C2FE /* Mantle.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				101B5D8D16F71B0C00B6C2FE /* Bakalarka1 */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		101B62EC16FC552400B6C2FE /* Mantle.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Mantle.framework;
+			remoteRef = 101B62EB16FC552400B6C2FE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		101B62EE16FC552400B6C2FE /* Mantle Mac Tests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Mantle Mac Tests.octest";
+			remoteRef = 101B62ED16FC552400B6C2FE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		101B62F016FC552400B6C2FE /* libMantle.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libMantle.a;
+			remoteRef = 101B62EF16FC552400B6C2FE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		101B62F216FC552400B6C2FE /* Mantle iOS Tests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Mantle iOS Tests.octest";
+			remoteRef = 101B62F116FC552400B6C2FE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		101B5D8C16F71B0C00B6C2FE /* Resources */ = {
@@ -246,11 +395,24 @@
 				101B5DCE16F71B4200B6C2FE /* AFURLConnectionOperation.m in Sources */,
 				101B5DCF16F71B4200B6C2FE /* AFXMLRequestOperation.m in Sources */,
 				101B5DD016F71B4200B6C2FE /* UIImageView+AFNetworking.m in Sources */,
-				101B5DD616F8890F00B6C2FE /* VBHTTPClient.m in Sources */,
+				101B5DD616F8890F00B6C2FE /* BCHTTPClient.m in Sources */,
+				101B5DD916FBB43C00B6C2FE /* BCIssue.m in Sources */,
+				10D554E516FC7C280020FE83 /* BCUser.m in Sources */,
+				10D554E816FCA3660020FE83 /* BCMilestone.m in Sources */,
+				10D554EB16FCA42D0020FE83 /* BCRepository.m in Sources */,
+				10D554EE16FF83530020FE83 /* BCLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		101B62F616FC563200B6C2FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Mantle iOS";
+			targetProxy = 101B62F516FC563200B6C2FE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		101B5D9A16F71B0C00B6C2FE /* InfoPlist.strings */ = {
@@ -334,6 +496,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Bakalarka1/Bakalarka1-Prefix.pch";
 				INFOPLIST_FILE = "Bakalarka1/Bakalarka1-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Bakalarka1/Mantle/MantleTests/specta/test/vendor/expecta\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -345,6 +511,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Bakalarka1/Bakalarka1-Prefix.pch";
 				INFOPLIST_FILE = "Bakalarka1/Bakalarka1-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Bakalarka1/Mantle/MantleTests/specta/test/vendor/expecta\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -369,6 +539,7 @@
 				101B5DB316F71B0C00B6C2FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

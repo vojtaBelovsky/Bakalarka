@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface BCViewController : UIViewController
+- (IBAction)getIssue:(id)sender;
+- (IBAction)getRepository:(id)sender;
 
 @end

@@ -6,10 +6,10 @@
 //  Copyright (c) 2013 vojta. All rights reserved.
 //
 
-#import "VBHTTPClient.h"
-#define VBHTTPCLIENT_BASE_URL @"https://api.github.com/"
+#import "BCHTTPClient.h"
+#define BCHTTPCLIENT_BASE_URL @"https://api.github.com/"
 
-@implementation VBHTTPClient
+@implementation BCHTTPClient
 
 - (id)initWithBaseURL:(NSURL *)url {
     self = [super initWithBaseURL:url];
@@ -17,6 +17,9 @@
         [self registerHTTPOperationClass:[AFJSONRequestOperation class]];
         [self setDefaultHeader:@"Accept" value:@"application/json"];
         [self setAuthorizationHeaderWithUsername:@"vojtaBelovsky" password:@"tr1n1t1"];
+        
+        
+        
     }
     return self;
 }
@@ -70,11 +73,11 @@
     [[self sharedInstance] getPath:path parameters:parameters success:success failure:failure];
 }
 
-+ (VBHTTPClient *)sharedInstance {
-    static VBHTTPClient *instance = nil;
++ (BCHTTPClient *)sharedInstance {
+    static BCHTTPClient *instance = nil;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        instance = [[self alloc] initWithBaseURL:[NSURL URLWithString:VBHTTPCLIENT_BASE_URL]];
+        instance = [[self alloc] initWithBaseURL:[NSURL URLWithString:BCHTTPCLIENT_BASE_URL]];
     });
     return instance;
 }

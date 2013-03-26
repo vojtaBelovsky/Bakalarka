@@ -10,13 +10,13 @@
 #import "AFJSONRequestOperation.h"
 #import "AFHTTPClient.h"
 
-@interface VBHTTPClient : AFHTTPClient
+@interface BCHTTPClient : AFHTTPClient
 
 + (void)getPath:(NSString *)path
      parameters:(NSDictionary *)parameters
         success:(void (^)(AFHTTPRequestOperation *operation, id responseObject))success
         failure:(void (^)(AFHTTPRequestOperation *operation, NSError *error))failure;
 
-+ (VBHTTPClient *)sharedInstance;
++ (BCHTTPClient *)sharedInstance;
 
 @end
