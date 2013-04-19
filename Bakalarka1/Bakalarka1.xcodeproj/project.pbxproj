@@ -7,6 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		101808D917215DD50013A5A4 /* BCAddIssueView.m in Sources */ = {isa = PBXBuildFile; fileRef = 101808AF17215DD50013A5A4 /* BCAddIssueView.m */; };
+		101808DA17215DD50013A5A4 /* BCAddIssueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 101808B117215DD50013A5A4 /* BCAddIssueViewController.m */; };
+		101808DB17215DD50013A5A4 /* BCIssueCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 101808B317215DD50013A5A4 /* BCIssueCell.m */; };
+		101808DC17215DD50013A5A4 /* BCIssueDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 101808B517215DD50013A5A4 /* BCIssueDataSource.m */; };
+		101808DD17215DD50013A5A4 /* BCIssueDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 101808B717215DD50013A5A4 /* BCIssueDetailView.m */; };
+		101808DE17215DD50013A5A4 /* BCIssueDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 101808B917215DD50013A5A4 /* BCIssueDetailViewController.m */; };
+		101808DF17215DD50013A5A4 /* BCIssueView.m in Sources */ = {isa = PBXBuildFile; fileRef = 101808BB17215DD50013A5A4 /* BCIssueView.m */; };
+		101808E017215DD50013A5A4 /* BCIssueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 101808BD17215DD50013A5A4 /* BCIssueViewController.m */; };
+		101808E117215DD50013A5A4 /* BCRepositoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 101808BF17215DD50013A5A4 /* BCRepositoryCell.m */; };
+		101808E217215DD50013A5A4 /* BCRepositoryDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 101808C117215DD50013A5A4 /* BCRepositoryDataSource.m */; };
+		101808E317215DD50013A5A4 /* BCRepositoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 101808C317215DD50013A5A4 /* BCRepositoryView.m */; };
+		101808E417215DD50013A5A4 /* BCRepositoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 101808C517215DD50013A5A4 /* BCRepositoryViewController.m */; };
+		101808E517215DD50013A5A4 /* BCSelectAssigneeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 101808C717215DD50013A5A4 /* BCSelectAssigneeCell.m */; };
+		101808E617215DD50013A5A4 /* BCSelectAssigneeDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 101808C917215DD50013A5A4 /* BCSelectAssigneeDataSource.m */; };
+		101808E717215DD50013A5A4 /* BCSelectAssigneeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 101808CB17215DD50013A5A4 /* BCSelectAssigneeView.m */; };
+		101808E817215DD50013A5A4 /* BCSelectAssigneeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 101808CD17215DD50013A5A4 /* BCSelectAssigneeViewController.m */; };
 		101B5D9216F71B0C00B6C2FE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 101B5D9116F71B0C00B6C2FE /* UIKit.framework */; };
 		101B5D9416F71B0C00B6C2FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 101B5D9316F71B0C00B6C2FE /* Foundation.framework */; };
 		101B5D9616F71B0C00B6C2FE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 101B5D9516F71B0C00B6C2FE /* CoreGraphics.framework */; };
@@ -75,6 +91,38 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		101808AE17215DD50013A5A4 /* BCAddIssueView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BCAddIssueView.h; path = "../../../obnova projektu/OBJCapka/BCAddIssueView.h"; sourceTree = "<group>"; };
+		101808AF17215DD50013A5A4 /* BCAddIssueView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BCAddIssueView.m; path = "../../../obnova projektu/OBJCapka/BCAddIssueView.m"; sourceTree = "<group>"; };
+		101808B017215DD50013A5A4 /* BCAddIssueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BCAddIssueViewController.h; path = "../../../obnova projektu/OBJCapka/BCAddIssueViewController.h"; sourceTree = "<group>"; };
+		101808B117215DD50013A5A4 /* BCAddIssueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BCAddIssueViewController.m; path = "../../../obnova projektu/OBJCapka/BCAddIssueViewController.m"; sourceTree = "<group>"; };
+		101808B217215DD50013A5A4 /* BCIssueCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BCIssueCell.h; path = "../../../obnova projektu/OBJCapka/BCIssueCell.h"; sourceTree = "<group>"; };
+		101808B317215DD50013A5A4 /* BCIssueCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BCIssueCell.m; path = "../../../obnova projektu/OBJCapka/BCIssueCell.m"; sourceTree = "<group>"; };
+		101808B417215DD50013A5A4 /* BCIssueDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BCIssueDataSource.h; path = "../../../obnova projektu/OBJCapka/BCIssueDataSource.h"; sourceTree = "<group>"; };
+		101808B517215DD50013A5A4 /* BCIssueDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BCIssueDataSource.m; path = "../../../obnova projektu/OBJCapka/BCIssueDataSource.m"; sourceTree = "<group>"; };
+		101808B617215DD50013A5A4 /* BCIssueDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BCIssueDetailView.h; path = "../../../obnova projektu/OBJCapka/BCIssueDetailView.h"; sourceTree = "<group>"; };
+		101808B717215DD50013A5A4 /* BCIssueDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BCIssueDetailView.m; path = "../../../obnova projektu/OBJCapka/BCIssueDetailView.m"; sourceTree = "<group>"; };
+		101808B817215DD50013A5A4 /* BCIssueDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BCIssueDetailViewController.h; path = "../../../obnova projektu/OBJCapka/BCIssueDetailViewController.h"; sourceTree = "<group>"; };
+		101808B917215DD50013A5A4 /* BCIssueDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BCIssueDetailViewController.m; path = "../../../obnova projektu/OBJCapka/BCIssueDetailViewController.m"; sourceTree = "<group>"; };
+		101808BA17215DD50013A5A4 /* BCIssueView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BCIssueView.h; path = "../../../obnova projektu/OBJCapka/BCIssueView.h"; sourceTree = "<group>"; };
+		101808BB17215DD50013A5A4 /* BCIssueView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BCIssueView.m; path = "../../../obnova projektu/OBJCapka/BCIssueView.m"; sourceTree = "<group>"; };
+		101808BC17215DD50013A5A4 /* BCIssueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BCIssueViewController.h; path = "../../../obnova projektu/OBJCapka/BCIssueViewController.h"; sourceTree = "<group>"; };
+		101808BD17215DD50013A5A4 /* BCIssueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BCIssueViewController.m; path = "../../../obnova projektu/OBJCapka/BCIssueViewController.m"; sourceTree = "<group>"; };
+		101808BE17215DD50013A5A4 /* BCRepositoryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BCRepositoryCell.h; path = "../../../obnova projektu/OBJCapka/BCRepositoryCell.h"; sourceTree = "<group>"; };
+		101808BF17215DD50013A5A4 /* BCRepositoryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BCRepositoryCell.m; path = "../../../obnova projektu/OBJCapka/BCRepositoryCell.m"; sourceTree = "<group>"; };
+		101808C017215DD50013A5A4 /* BCRepositoryDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BCRepositoryDataSource.h; path = "../../../obnova projektu/OBJCapka/BCRepositoryDataSource.h"; sourceTree = "<group>"; };
+		101808C117215DD50013A5A4 /* BCRepositoryDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BCRepositoryDataSource.m; path = "../../../obnova projektu/OBJCapka/BCRepositoryDataSource.m"; sourceTree = "<group>"; };
+		101808C217215DD50013A5A4 /* BCRepositoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BCRepositoryView.h; path = "../../../obnova projektu/OBJCapka/BCRepositoryView.h"; sourceTree = "<group>"; };
+		101808C317215DD50013A5A4 /* BCRepositoryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BCRepositoryView.m; path = "../../../obnova projektu/OBJCapka/BCRepositoryView.m"; sourceTree = "<group>"; };
+		101808C417215DD50013A5A4 /* BCRepositoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BCRepositoryViewController.h; path = "../../../obnova projektu/OBJCapka/BCRepositoryViewController.h"; sourceTree = "<group>"; };
+		101808C517215DD50013A5A4 /* BCRepositoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BCRepositoryViewController.m; path = "../../../obnova projektu/OBJCapka/BCRepositoryViewController.m"; sourceTree = "<group>"; };
+		101808C617215DD50013A5A4 /* BCSelectAssigneeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BCSelectAssigneeCell.h; path = "../../../obnova projektu/OBJCapka/BCSelectAssigneeCell.h"; sourceTree = "<group>"; };
+		101808C717215DD50013A5A4 /* BCSelectAssigneeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BCSelectAssigneeCell.m; path = "../../../obnova projektu/OBJCapka/BCSelectAssigneeCell.m"; sourceTree = "<group>"; };
+		101808C817215DD50013A5A4 /* BCSelectAssigneeDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BCSelectAssigneeDataSource.h; path = "../../../obnova projektu/OBJCapka/BCSelectAssigneeDataSource.h"; sourceTree = "<group>"; };
+		101808C917215DD50013A5A4 /* BCSelectAssigneeDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BCSelectAssigneeDataSource.m; path = "../../../obnova projektu/OBJCapka/BCSelectAssigneeDataSource.m"; sourceTree = "<group>"; };
+		101808CA17215DD50013A5A4 /* BCSelectAssigneeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BCSelectAssigneeView.h; path = "../../../obnova projektu/OBJCapka/BCSelectAssigneeView.h"; sourceTree = "<group>"; };
+		101808CB17215DD50013A5A4 /* BCSelectAssigneeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BCSelectAssigneeView.m; path = "../../../obnova projektu/OBJCapka/BCSelectAssigneeView.m"; sourceTree = "<group>"; };
+		101808CC17215DD50013A5A4 /* BCSelectAssigneeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BCSelectAssigneeViewController.h; path = "../../../obnova projektu/OBJCapka/BCSelectAssigneeViewController.h"; sourceTree = "<group>"; };
+		101808CD17215DD50013A5A4 /* BCSelectAssigneeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BCSelectAssigneeViewController.m; path = "../../../obnova projektu/OBJCapka/BCSelectAssigneeViewController.m"; sourceTree = "<group>"; };
 		101B5D8E16F71B0C00B6C2FE /* Bakalarka1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bakalarka1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		101B5D9116F71B0C00B6C2FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		101B5D9316F71B0C00B6C2FE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -140,6 +188,145 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		101808ED17215DFA0013A5A4 /* repository */ = {
+			isa = PBXGroup;
+			children = (
+				101808F317215F240013A5A4 /* datasource */,
+				101808F217215F170013A5A4 /* view */,
+				101808C417215DD50013A5A4 /* BCRepositoryViewController.h */,
+				101808C517215DD50013A5A4 /* BCRepositoryViewController.m */,
+			);
+			name = repository;
+			sourceTree = "<group>";
+		};
+		101808EE17215E070013A5A4 /* issue */ = {
+			isa = PBXGroup;
+			children = (
+				101808F617215F650013A5A4 /* datasource */,
+				101808F517215F5C0013A5A4 /* view */,
+				101808BC17215DD50013A5A4 /* BCIssueViewController.h */,
+				101808BD17215DD50013A5A4 /* BCIssueViewController.m */,
+			);
+			name = issue;
+			sourceTree = "<group>";
+		};
+		101808EF17215E100013A5A4 /* issueDetail */ = {
+			isa = PBXGroup;
+			children = (
+				101808B617215DD50013A5A4 /* BCIssueDetailView.h */,
+				101808B717215DD50013A5A4 /* BCIssueDetailView.m */,
+				101808B817215DD50013A5A4 /* BCIssueDetailViewController.h */,
+				101808B917215DD50013A5A4 /* BCIssueDetailViewController.m */,
+			);
+			name = issueDetail;
+			sourceTree = "<group>";
+		};
+		101808F017215E220013A5A4 /* addIssue */ = {
+			isa = PBXGroup;
+			children = (
+				101808AE17215DD50013A5A4 /* BCAddIssueView.h */,
+				101808AF17215DD50013A5A4 /* BCAddIssueView.m */,
+				101808B017215DD50013A5A4 /* BCAddIssueViewController.h */,
+				101808B117215DD50013A5A4 /* BCAddIssueViewController.m */,
+			);
+			name = addIssue;
+			sourceTree = "<group>";
+		};
+		101808F117215E310013A5A4 /* selectAssignee */ = {
+			isa = PBXGroup;
+			children = (
+				101808F917215FAB0013A5A4 /* view */,
+				101808F817215FA00013A5A4 /* datasource */,
+				101808CC17215DD50013A5A4 /* BCSelectAssigneeViewController.h */,
+				101808CD17215DD50013A5A4 /* BCSelectAssigneeViewController.m */,
+			);
+			name = selectAssignee;
+			sourceTree = "<group>";
+		};
+		101808F217215F170013A5A4 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				101808F417215F440013A5A4 /* cell */,
+				101808C217215DD50013A5A4 /* BCRepositoryView.h */,
+				101808C317215DD50013A5A4 /* BCRepositoryView.m */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		101808F317215F240013A5A4 /* datasource */ = {
+			isa = PBXGroup;
+			children = (
+				101808C017215DD50013A5A4 /* BCRepositoryDataSource.h */,
+				101808C117215DD50013A5A4 /* BCRepositoryDataSource.m */,
+			);
+			name = datasource;
+			sourceTree = "<group>";
+		};
+		101808F417215F440013A5A4 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				101808BF17215DD50013A5A4 /* BCRepositoryCell.m */,
+				101808BE17215DD50013A5A4 /* BCRepositoryCell.h */,
+			);
+			name = cell;
+			sourceTree = "<group>";
+		};
+		101808F517215F5C0013A5A4 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				101808BA17215DD50013A5A4 /* BCIssueView.h */,
+				101808BB17215DD50013A5A4 /* BCIssueView.m */,
+				101808F717215F780013A5A4 /* cell */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		101808F617215F650013A5A4 /* datasource */ = {
+			isa = PBXGroup;
+			children = (
+				101808B417215DD50013A5A4 /* BCIssueDataSource.h */,
+				101808B517215DD50013A5A4 /* BCIssueDataSource.m */,
+			);
+			name = datasource;
+			sourceTree = "<group>";
+		};
+		101808F717215F780013A5A4 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				101808B217215DD50013A5A4 /* BCIssueCell.h */,
+				101808B317215DD50013A5A4 /* BCIssueCell.m */,
+			);
+			name = cell;
+			sourceTree = "<group>";
+		};
+		101808F817215FA00013A5A4 /* datasource */ = {
+			isa = PBXGroup;
+			children = (
+				101808C817215DD50013A5A4 /* BCSelectAssigneeDataSource.h */,
+				101808C917215DD50013A5A4 /* BCSelectAssigneeDataSource.m */,
+			);
+			name = datasource;
+			sourceTree = "<group>";
+		};
+		101808F917215FAB0013A5A4 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				101808CA17215DD50013A5A4 /* BCSelectAssigneeView.h */,
+				101808CB17215DD50013A5A4 /* BCSelectAssigneeView.m */,
+				101808FA17215FB80013A5A4 /* cell */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		101808FA17215FB80013A5A4 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				101808C617215DD50013A5A4 /* BCSelectAssigneeCell.h */,
+				101808C717215DD50013A5A4 /* BCSelectAssigneeCell.m */,
+			);
+			name = cell;
+			sourceTree = "<group>";
+		};
 		101B5D8516F71B0C00B6C2FE = {
 			isa = PBXGroup;
 			children = (
@@ -272,6 +459,11 @@
 		10D554DF16FC574C0020FE83 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				101808F117215E310013A5A4 /* selectAssignee */,
+				101808F017215E220013A5A4 /* addIssue */,
+				101808EF17215E100013A5A4 /* issueDetail */,
+				101808EE17215E070013A5A4 /* issue */,
+				101808ED17215DFA0013A5A4 /* repository */,
 				101B5DAC16F71B0C00B6C2FE /* BCViewController.h */,
 				101B5DAD16F71B0C00B6C2FE /* BCViewController.m */,
 			);
@@ -401,6 +593,22 @@
 				10D554E816FCA3660020FE83 /* BCMilestone.m in Sources */,
 				10D554EB16FCA42D0020FE83 /* BCRepository.m in Sources */,
 				10D554EE16FF83530020FE83 /* BCLabel.m in Sources */,
+				101808D917215DD50013A5A4 /* BCAddIssueView.m in Sources */,
+				101808DA17215DD50013A5A4 /* BCAddIssueViewController.m in Sources */,
+				101808DB17215DD50013A5A4 /* BCIssueCell.m in Sources */,
+				101808DC17215DD50013A5A4 /* BCIssueDataSource.m in Sources */,
+				101808DD17215DD50013A5A4 /* BCIssueDetailView.m in Sources */,
+				101808DE17215DD50013A5A4 /* BCIssueDetailViewController.m in Sources */,
+				101808DF17215DD50013A5A4 /* BCIssueView.m in Sources */,
+				101808E017215DD50013A5A4 /* BCIssueViewController.m in Sources */,
+				101808E117215DD50013A5A4 /* BCRepositoryCell.m in Sources */,
+				101808E217215DD50013A5A4 /* BCRepositoryDataSource.m in Sources */,
+				101808E317215DD50013A5A4 /* BCRepositoryView.m in Sources */,
+				101808E417215DD50013A5A4 /* BCRepositoryViewController.m in Sources */,
+				101808E517215DD50013A5A4 /* BCSelectAssigneeCell.m in Sources */,
+				101808E617215DD50013A5A4 /* BCSelectAssigneeDataSource.m in Sources */,
+				101808E717215DD50013A5A4 /* BCSelectAssigneeView.m in Sources */,
+				101808E817215DD50013A5A4 /* BCSelectAssigneeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
